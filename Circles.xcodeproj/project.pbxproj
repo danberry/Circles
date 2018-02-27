@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3742C4AF2045127B0040F436 /* CirclesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3742C4AE2045127B0040F436 /* CirclesView.h */; };
+		3742C4B12045127B0040F436 /* CirclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742C4B02045127B0040F436 /* CirclesView.m */; };
+		3742C4BB204513910040F436 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3742C4BA204513910040F436 /* thumbnail.png */; };
+		3742C4BE204513E20040F436 /* ParticleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3742C4BC204513E20040F436 /* ParticleView.h */; };
+		3742C4BF204513E20040F436 /* ParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742C4BD204513E20040F436 /* ParticleView.m */; };
+		3742C4C22045140E0040F436 /* CircleScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 3742C4C02045140E0040F436 /* CircleScene.h */; };
+		3742C4C32045140E0040F436 /* CircleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742C4C12045140E0040F436 /* CircleScene.m */; };
+		3742C4C5204518970040F436 /* Config.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3742C4C4204518970040F436 /* Config.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3742C4AB2045127B0040F436 /* Circles.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Circles.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		3742C4AE2045127B0040F436 /* CirclesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclesView.h; sourceTree = "<group>"; };
+		3742C4B02045127B0040F436 /* CirclesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclesView.m; sourceTree = "<group>"; };
+		3742C4B22045127B0040F436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3742C4BA204513910040F436 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		3742C4BC204513E20040F436 /* ParticleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleView.h; sourceTree = "<group>"; };
+		3742C4BD204513E20040F436 /* ParticleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleView.m; sourceTree = "<group>"; };
+		3742C4C02045140E0040F436 /* CircleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleScene.h; sourceTree = "<group>"; };
+		3742C4C12045140E0040F436 /* CircleScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleScene.m; sourceTree = "<group>"; };
+		3742C4C4204518970040F436 /* Config.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Config.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3742C4A72045127B0040F436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3742C4A12045127B0040F436 = {
+			isa = PBXGroup;
+			children = (
+				3742C4AD2045127B0040F436 /* Circles */,
+				3742C4AC2045127B0040F436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3742C4AC2045127B0040F436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3742C4AB2045127B0040F436 /* Circles.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3742C4AD2045127B0040F436 /* Circles */ = {
+			isa = PBXGroup;
+			children = (
+				3742C4B9204513850040F436 /* Resources */,
+				3742C4B8204512860040F436 /* Source */,
+			);
+			path = Circles;
+			sourceTree = "<group>";
+		};
+		3742C4B8204512860040F436 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3742C4AE2045127B0040F436 /* CirclesView.h */,
+				3742C4B02045127B0040F436 /* CirclesView.m */,
+				3742C4BC204513E20040F436 /* ParticleView.h */,
+				3742C4BD204513E20040F436 /* ParticleView.m */,
+				3742C4C02045140E0040F436 /* CircleScene.h */,
+				3742C4C12045140E0040F436 /* CircleScene.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3742C4B9204513850040F436 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3742C4BA204513910040F436 /* thumbnail.png */,
+				3742C4B22045127B0040F436 /* Info.plist */,
+				3742C4C4204518970040F436 /* Config.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3742C4A82045127B0040F436 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742C4C22045140E0040F436 /* CircleScene.h in Headers */,
+				3742C4AF2045127B0040F436 /* CirclesView.h in Headers */,
+				3742C4BE204513E20040F436 /* ParticleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3742C4AA2045127B0040F436 /* Circles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3742C4B52045127B0040F436 /* Build configuration list for PBXNativeTarget "Circles" */;
+			buildPhases = (
+				3742C4A62045127B0040F436 /* Sources */,
+				3742C4A72045127B0040F436 /* Frameworks */,
+				3742C4A82045127B0040F436 /* Headers */,
+				3742C4A92045127B0040F436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circles;
+			productName = Circles;
+			productReference = 3742C4AB2045127B0040F436 /* Circles.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3742C4A22045127B0040F436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = danberry;
+				TargetAttributes = {
+					3742C4AA2045127B0040F436 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3742C4A52045127B0040F436 /* Build configuration list for PBXProject "Circles" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3742C4A12045127B0040F436;
+			productRefGroup = 3742C4AC2045127B0040F436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3742C4AA2045127B0040F436 /* Circles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3742C4A92045127B0040F436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742C4BB204513910040F436 /* thumbnail.png in Resources */,
+				3742C4C5204518970040F436 /* Config.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3742C4A62045127B0040F436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742C4C32045140E0040F436 /* CircleScene.m in Sources */,
+				3742C4BF204513E20040F436 /* ParticleView.m in Sources */,
+				3742C4B12045127B0040F436 /* CirclesView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3742C4B32045127B0040F436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3742C4B42045127B0040F436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3742C4B62045127B0040F436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P7A5Q97UJ7;
+				INFOPLIST_FILE = "$(SRCROOT)/Circles/Resources/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danberry.Circles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		3742C4B72045127B0040F436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P7A5Q97UJ7;
+				INFOPLIST_FILE = "$(SRCROOT)/Circles/Resources/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danberry.Circles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3742C4A52045127B0040F436 /* Build configuration list for PBXProject "Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742C4B32045127B0040F436 /* Debug */,
+				3742C4B42045127B0040F436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3742C4B52045127B0040F436 /* Build configuration list for PBXNativeTarget "Circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742C4B62045127B0040F436 /* Debug */,
+				3742C4B72045127B0040F436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3742C4A22045127B0040F436 /* Project object */;
+}
