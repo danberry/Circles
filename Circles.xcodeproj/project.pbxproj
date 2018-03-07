@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3726F954204F7A26008E06B8 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3726F953204F7A26008E06B8 /* Constants.h */; };
+		3726F956204F7AB6008E06B8 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3726F955204F7AB6008E06B8 /* Constants.m */; };
 		3742C4AF2045127B0040F436 /* CirclesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3742C4AE2045127B0040F436 /* CirclesView.h */; };
 		3742C4B12045127B0040F436 /* CirclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742C4B02045127B0040F436 /* CirclesView.m */; };
 		3742C4BB204513910040F436 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3742C4BA204513910040F436 /* thumbnail.png */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3726F953204F7A26008E06B8 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3726F955204F7AB6008E06B8 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		3742C4AB2045127B0040F436 /* Circles.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Circles.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		3742C4AE2045127B0040F436 /* CirclesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclesView.h; sourceTree = "<group>"; };
 		3742C4B02045127B0040F436 /* CirclesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclesView.m; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				3742C4BD204513E20040F436 /* ParticleView.m */,
 				3742C4C02045140E0040F436 /* CircleScene.h */,
 				3742C4C12045140E0040F436 /* CircleScene.m */,
+				3726F953204F7A26008E06B8 /* Constants.h */,
+				3726F955204F7AB6008E06B8 /* Constants.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -98,6 +104,7 @@
 			files = (
 				3742C4C22045140E0040F436 /* CircleScene.h in Headers */,
 				3742C4AF2045127B0040F436 /* CirclesView.h in Headers */,
+				3726F954204F7A26008E06B8 /* Constants.h in Headers */,
 				3742C4BE204513E20040F436 /* ParticleView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +182,7 @@
 				3742C4C32045140E0040F436 /* CircleScene.m in Sources */,
 				3742C4BF204513E20040F436 /* ParticleView.m in Sources */,
 				3742C4B12045127B0040F436 /* CirclesView.m in Sources */,
+				3726F956204F7AB6008E06B8 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 		3742C4B62045127B0040F436 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = P7A5Q97UJ7;
@@ -294,6 +303,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danberry.Circles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -301,6 +311,7 @@
 		3742C4B72045127B0040F436 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = P7A5Q97UJ7;
@@ -308,6 +319,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danberry.Circles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
